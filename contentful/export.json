@@ -1,0 +1,557 @@
+{
+  "contentTypes": [
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "1si38vr6fahj"
+          }
+        },
+        "id": "projects",
+        "type": "ContentType",
+        "createdAt": "2025-02-13T14:47:50.772Z",
+        "updatedAt": "2025-02-13T14:47:51.197Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2025-02-13T14:47:51.197Z",
+        "firstPublishedAt": "2025-02-13T14:47:51.197Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7zU5iB9nOvUXLV74XAW9b9"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7zU5iB9nOvUXLV74XAW9b9"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7zU5iB9nOvUXLV74XAW9b9"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/1si38vr6fahj/environments/master/content_types/projects"
+      },
+      "displayField": "projectName",
+      "name": "projects",
+      "description": "",
+      "fields": [
+        {
+          "id": "projectName",
+          "name": "Project Name",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "description",
+          "name": "Description",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "skills",
+          "name": "Skills",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "company",
+          "name": "Company",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    }
+  ],
+  "tags": [
+  ],
+  "editorInterfaces": [
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "1si38vr6fahj",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 2,
+        "createdAt": "2025-02-13T14:47:51.365Z",
+        "createdBy": {
+          "sys": {
+            "id": "7zU5iB9nOvUXLV74XAW9b9",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2025-02-13T14:47:51.782Z",
+        "updatedBy": {
+          "sys": {
+            "id": "7zU5iB9nOvUXLV74XAW9b9",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "projects",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "projectName",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "description",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "skills",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "company",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "metadata": {
+        "tags": [
+        ],
+        "concepts": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "1si38vr6fahj"
+          }
+        },
+        "id": "6EiUP2NpcC643dU8d2hR3w",
+        "type": "Entry",
+        "createdAt": "2025-02-13T16:23:03.032Z",
+        "updatedAt": "2025-02-13T16:24:55.511Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 11,
+        "publishedAt": "2025-02-13T16:24:55.511Z",
+        "firstPublishedAt": "2025-02-13T16:24:55.511Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7zU5iB9nOvUXLV74XAW9b9"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7zU5iB9nOvUXLV74XAW9b9"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 12,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7zU5iB9nOvUXLV74XAW9b9"
+          }
+        },
+        "fieldStatus": {
+          "*": {
+            "en-US": "published"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "projects"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/1si38vr6fahj/environments/master/entries/6EiUP2NpcC643dU8d2hR3w"
+      },
+      "fields": {
+        "projectName": {
+          "en-US": "My first React Project"
+        },
+        "description": {
+          "en-US": "I did this for non profit organisation "
+        },
+        "skills": {
+          "en-US": "React, HTML, CSS, Testing, Context API"
+        },
+        "company": {
+          "en-US": "Brent Cross Foundation"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ],
+        "concepts": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "1si38vr6fahj"
+          }
+        },
+        "id": "xfb7vUim7fJ6m8THWGBCx",
+        "type": "Entry",
+        "createdAt": "2025-02-13T16:25:14.412Z",
+        "updatedAt": "2025-02-13T16:26:09.756Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 10,
+        "publishedAt": "2025-02-13T16:26:09.756Z",
+        "firstPublishedAt": "2025-02-13T16:26:09.756Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7zU5iB9nOvUXLV74XAW9b9"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7zU5iB9nOvUXLV74XAW9b9"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 11,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7zU5iB9nOvUXLV74XAW9b9"
+          }
+        },
+        "fieldStatus": {
+          "*": {
+            "en-US": "published"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "projects"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/1si38vr6fahj/environments/master/entries/xfb7vUim7fJ6m8THWGBCx"
+      },
+      "fields": {
+        "projectName": {
+          "en-US": "React for Kids"
+        },
+        "description": {
+          "en-US": "A project to be used by kids in a kindergarden"
+        },
+        "skills": {
+          "en-US": "React Native, Databases, Prisma"
+        },
+        "company": {
+          "en-US": "Brent Cross Kindgergraden"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ],
+        "concepts": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "1si38vr6fahj"
+          }
+        },
+        "id": "6GXfuyHFOU8JRHdlG8F78s",
+        "type": "Entry",
+        "createdAt": "2025-02-13T16:26:14.343Z",
+        "updatedAt": "2025-02-13T16:26:56.410Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 8,
+        "publishedAt": "2025-02-13T16:26:56.410Z",
+        "firstPublishedAt": "2025-02-13T16:26:56.410Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7zU5iB9nOvUXLV74XAW9b9"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7zU5iB9nOvUXLV74XAW9b9"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 9,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7zU5iB9nOvUXLV74XAW9b9"
+          }
+        },
+        "fieldStatus": {
+          "*": {
+            "en-US": "published"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "projects"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/1si38vr6fahj/environments/master/entries/6GXfuyHFOU8JRHdlG8F78s"
+      },
+      "fields": {
+        "projectName": {
+          "en-US": "Blog site for Brent Cross Local Community"
+        },
+        "description": {
+          "en-US": "A blog site"
+        },
+        "skills": {
+          "en-US": "React, CMS"
+        },
+        "company": {
+          "en-US": "Brent Cross Town Hall"
+        }
+      }
+    }
+  ],
+  "assets": [
+  ],
+  "locales": [
+    {
+      "name": "English (United States)",
+      "code": "en-US",
+      "fallbackCode": null,
+      "default": true,
+      "contentManagementApi": true,
+      "contentDeliveryApi": true,
+      "optional": false,
+      "sys": {
+        "type": "Locale",
+        "id": "023hVTmx7Z8xeo3TVi6vGi",
+        "version": 1,
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "1si38vr6fahj"
+          }
+        },
+        "environment": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Environment",
+            "id": "master",
+            "uuid": "f21546ae-9017-46d9-bd32-17d07f86132f"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7zU5iB9nOvUXLV74XAW9b9"
+          }
+        },
+        "createdAt": "2025-02-13T13:40:25Z",
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7zU5iB9nOvUXLV74XAW9b9"
+          }
+        },
+        "updatedAt": "2025-02-13T13:40:25Z"
+      }
+    }
+  ],
+  "webhooks": [
+  ],
+  "roles": [
+    {
+      "name": "Editor",
+      "description": "Allows editing, publishing and archiving of content",
+      "policies": [
+        {
+          "effect": "allow",
+          "actions": "all",
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Entry"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "effect": "allow",
+          "actions": "all",
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Asset"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "permissions": {
+        "ContentModel": [
+          "read"
+        ],
+        "Settings": [
+        ],
+        "ContentDelivery": [
+        ],
+        "Environments": [
+        ],
+        "EnvironmentAliases": [
+        ],
+        "Tags": [
+        ]
+      },
+      "sys": {
+        "type": "Role",
+        "id": "02t0xBmhhOXJpUJfogfWtk",
+        "version": 0,
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "1si38vr6fahj"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7zU5iB9nOvUXLV74XAW9b9"
+          }
+        },
+        "createdAt": "2025-02-13T13:40:26Z",
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7zU5iB9nOvUXLV74XAW9b9"
+          }
+        },
+        "updatedAt": "2025-02-13T13:40:26Z"
+      }
+    }
+  ]
+}
