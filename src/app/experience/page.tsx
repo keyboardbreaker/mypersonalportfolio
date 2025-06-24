@@ -12,7 +12,7 @@ const Experience = () => {
     const client = createClient({
         space: "ptlz289r9hfh",
         accessToken:  "fxMMw8RkqLAvtTvdvdaP-XDlehYg074JsymxQ4zNKKs"
-    });
+    }); 
 
     useEffect(() => {
 
