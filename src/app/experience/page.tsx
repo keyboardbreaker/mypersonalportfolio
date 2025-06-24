@@ -8,10 +8,10 @@ const Experience = () => {
     const [experiences, setExperiences] = useState<TypeExperiencesFields[]>([]);
     // const [filter] = useState<string>('')
     // const [isPending, startTransition] = useTransition();
-    
+    console.log(process.env);
     const client = createClient({
-        space: process.env.VITE_CONTENTFUL_SPACE_ID ?? '',
-        accessToken:  process.env.VITE_CONTENTFUL_ACCESS_TOKEN ?? ''
+        space: "ptlz289r9hfh",
+        accessToken:  "fxMMw8RkqLAvtTvdvdaP-XDlehYg074JsymxQ4zNKKs"
     });
 
     useEffect(() => {
