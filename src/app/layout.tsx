@@ -12,7 +12,7 @@ export default function RootLayout({
       <body>
         <Header
           name="Yu-Jin Tan"
-          image="/aris.png"
+          image="/Yu-Jin.jpeg"
           twitter=""
           linkedin=""
         />
