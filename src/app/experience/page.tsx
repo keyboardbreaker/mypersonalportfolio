@@ -23,9 +23,7 @@ const Experience = () => {
             console.log(entries)
         };
 
-        getExperiences()
-        
-    
+        getExperiences();
     }, [])
     
     return (
