@@ -10,8 +10,8 @@ const Experience = () => {
     // const [isPending, startTransition] = useTransition();
     console.log(process.env);
     const client = createClient({
-        space: process.env.CONTENTFUL_SPACE_ID ?? '',
-        accessToken:  process.env.CONTENTFUL_ACCESS_TOKEN ?? ''
+        space: process.env.NEXT_PUBLIC_CONTENTFUL_SPACE_ID ?? '',
+        accessToken:  process.env.NEXT_PUBLIC_CONTENTFUL_ACCESS_TOKEN ?? ''
     });
 
     useEffect(() => {
@@ -38,9 +38,9 @@ const Experience = () => {
             ) :(
             experiences.map((experience, index) => 
                 <div key={index}>
-                   <h2>{experience.name}</h2>
-                   <h3>Skills</h3>
-                   {experience.description}
+                    <h2>{experience.name}</h2>
+                    <h3>Skills</h3>
+                    {experience.description}
                 </div>
             )
         )}
