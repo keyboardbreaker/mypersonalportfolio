@@ -18,7 +18,7 @@ const Navigation = ({
                 <li><Link href="/">Home</Link></li>
                 <li><Link href="/about">About</Link></li>
                 <li><Link href="/experience">Experience</Link></li>
-                <li><Link href="/projects">Projects</Link></li>
+                <li><Link href="/project">Projects</Link></li>
                 <li><Link href="/contactme">Contact me</Link></li>
             </ul>
         </nav>
