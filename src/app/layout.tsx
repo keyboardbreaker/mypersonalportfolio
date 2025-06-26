@@ -20,7 +20,7 @@ export default function RootLayout({
           <main>{children}</main>
           <Footer
             twitter=""
-            linkedIn=""
+            linkedIn="https://www.linkedin.com/in/yujintan/"
           />
         </section>
       </body>

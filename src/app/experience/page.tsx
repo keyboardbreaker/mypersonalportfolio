@@ -25,22 +25,20 @@ const Experience = () => {
     }, [])
     
     return (
-
-
         <div>
             <h2>Experiences</h2>
             {experiences.length === 0 ? (
                 <p>No experiences found.</p>
             ) :(
-            experiences.map((experience, index) => 
-                <div key={index}>
-                    <h2>{experience.name}</h2>
-                    <h3>Skills</h3>
-                    {experience.description}
-                </div>
-            )
-        )}
-      </div>
+                experiences.map((experience, index) => 
+                    <div key={index}>
+                        <h2>{experience.name}</h2>
+                        <h3>Skills</h3>
+                        {experience.description}
+                    </div>
+                )
+            )}
+        </div>
 
     )
 }

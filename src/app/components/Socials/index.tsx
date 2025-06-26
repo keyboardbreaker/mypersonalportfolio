@@ -11,7 +11,7 @@ const Socials = ({
 }: SoclalsProps) => {
     return (
         <p className={styles.items}>Follow me on &nbsp;
-            <a href={linkedin}>
+            <a href={linkedin} target="_blank" rel="noopener noreferrer">
                 <img src={'/li.png'} alt={'linkedin image'} className={styles.socials} />
             </a>  
             {/* <a href={twitter}>
