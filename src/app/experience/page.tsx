@@ -18,9 +18,7 @@ const Experience = () => {
 
         const getExperiences = async () => {
             const entries =  await client.getEntries({content_type: 'experiences'});
-
             setExperiences(entries.items.map(item => item.fields as TypeExperiencesFields))
-            console.log(entries)
         };
 
         getExperiences();

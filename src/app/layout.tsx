@@ -10,17 +10,19 @@ export default function RootLayout({
   return (
 <html lang="en">
       <body>
-        <Header
-          name="Yu-Jin Tan"
-          image="/Yu-Jin.jpeg"
-          twitter=""
-          linkedin=""
-        />
-        <main>{children}</main>
-        <Footer
-          twitter=""
-          linkedIn=""
-        />
+        <section className="container">
+          <Header
+            name="Yu-Jin Tan"
+            image="/Yu-Jin.jpeg"
+            // twitter=""
+            // linkedin=""
+          />
+          <main>{children}</main>
+          <Footer
+            twitter=""
+            linkedIn=""
+          />
+        </section>
       </body>
     </html>
 

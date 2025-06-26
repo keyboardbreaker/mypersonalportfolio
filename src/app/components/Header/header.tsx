@@ -1,19 +1,19 @@
 import Navigation from '../Navigation';
-import Socials from '../Socials';
+// import Socials from '../Socials';
 import styles from './Header.module.css';
 
 interface HeaderProps {
     name: string;
     image: string;
-    twitter: string;
-    linkedin: string;
+    // twitter: string;
+    // linkedin: string;
 }
 
 const Header = ({
     name,
     image,
-    twitter,
-    linkedin
+    // twitter,
+    // linkedin
 }: HeaderProps) => {
     return (
         <header className={styles.header}>
@@ -23,13 +23,12 @@ const Header = ({
             />
             <div className={styles.info}>
                 <h1>{name}</h1>
-                <Socials 
+                {/* <Socials 
                     twitter={twitter}
                     linkedin={linkedin}
-                />
+                /> */}
                 <Navigation />
             </div>
-           
         </header>
     )
 }

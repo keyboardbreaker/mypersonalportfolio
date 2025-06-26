@@ -6,18 +6,17 @@ interface  SoclalsProps{
 }
 
 const Socials = ({
-    twitter,
+    // twitter,
     linkedin
 }: SoclalsProps) => {
     return (
-        <p>Follow me in 
-            <a href={twitter}>
-                <img src='/li.png' alt={'linkedin image'} className={styles.socials} />
-            </a>
-            
+        <p className={styles.items}>Follow me on &nbsp;
             <a href={linkedin}>
-                <img src='/tw.png' alt={'twitter image'}  className={styles.socials} />
-            </a>
+                <img src={'/li.png'} alt={'linkedin image'} className={styles.socials} />
+            </a>  
+            {/* <a href={twitter}>
+                <img src={'/tw.png'} alt={'twitter image'}  className={styles.socials} />
+            </a> */}
         </p>
     )
 }
