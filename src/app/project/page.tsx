@@ -37,8 +37,9 @@ const Project = () => {
             projects.map((project, index) => 
                 <div key={index}>
                     <h2>{project.projectName}</h2>
+                    <p>{project.description}</p>
                     <h3>Skills</h3>
-                    {project.description}
+                    {project.skills}
                 </div>
             )
         )}

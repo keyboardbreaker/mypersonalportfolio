@@ -8,7 +8,6 @@ const Experience = () => {
     const [experiences, setExperiences] = useState<TypeExperiencesFields[]>([]);
     // const [filter] = useState<string>('')
     // const [isPending, startTransition] = useTransition();
-    console.log(process.env);
     const client = createClient({
         space: process.env.NEXT_PUBLIC_CONTENTFUL_SPACE_ID ?? '',
         accessToken:  process.env.NEXT_PUBLIC_CONTENTFUL_ACCESS_TOKEN ?? ''
