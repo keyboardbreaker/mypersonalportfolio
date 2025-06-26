@@ -5,6 +5,7 @@ import styles from './Header.module.css';
 interface HeaderProps {
     name: string;
     image: string;
+    title: string;
     // twitter: string;
     // linkedin: string;
 }
@@ -12,6 +13,7 @@ interface HeaderProps {
 const Header = ({
     name,
     image,
+    title
     // twitter,
     // linkedin
 }: HeaderProps) => {
@@ -23,6 +25,7 @@ const Header = ({
             />
             <div className={styles.info}>
                 <h1>{name}</h1>
+                <h3>{title}</h3>
                 {/* <Socials 
                     twitter={twitter}
                     linkedin={linkedin}

@@ -14,6 +14,7 @@ export default function RootLayout({
           <Header
             name="Yu-Jin Tan"
             image="/Yu-Jin.jpeg"
+            title="Software Engineer"
             // twitter=""
             // linkedin=""
           />
