@@ -9,11 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@storybook/react": "^9.0.13",
     "contentful": "^11.7.3",
     "contentful-cli": "^3.8.8",
     "next": "15.3.4",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "storybook": "^9.0.13"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
